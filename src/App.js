@@ -1,18 +1,13 @@
 import "./App.css";
-import Button from "./Button";
-import ButtonOutler from "./ButtonOutler";
-import DownloadIcon from "./DownloadIcon";
-import DashboardButton from "./DashboardButton";
+import Button from "./components/Button";
+import ButtonOutler from "./components/ButtonOutler";
+import DownloadIcon from "./components/DownloadIcon";
+import DashboardButton from "./components/DashboardButton";
 
 function App() {
   return (
     <div className="App">
       <div className="flex flex-row justify-center m-2">
-        {/* items-center justify-center h-screen */}
-        {/* <Button color="Primary" shade="50" text="Button" /> */}
-        {/* <Button color="Primary" shade="300" text="Button" /> */}
-        {/* <Button color="Primary" shade="500" text="Button" /> */}
-        {/* <button text="Button" className="bg-Natural-400 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2 text-3xl" >Text</button> */}
         <Button
           color="Primary"
           shade="700"
@@ -21,7 +16,6 @@ function App() {
           hieght="8"
           leftIcon={true}
         />
-        {/* <Button color="Primary" shade="900" text="Button" /> */}
         <Button
           color="Success"
           shade="700"
@@ -54,37 +48,6 @@ function App() {
           hieght="8"
           leftIcon={true}
         />
-        {/* <button text="Button" className="bg-Natural-400 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button> */}
-        {/* <button text="Button" className="bg-Primary-50 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Primary-300 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Primary-500 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Primary-700 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Primary-900 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-
-
-        <button text="Button" className="bg-Success-50 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Success-300 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Success-500 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Success-700 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Success-900 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-
-
-        <button text="Button" className="bg-Warning-50 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Warning-300 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Warning-500 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Warning-700 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Warning-900 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-
-        <button text="Button" className="bg-Error-50 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Error-300 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Error-500 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Error-700 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Error-900 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-
-        <button text="Button" className="bg-Shades-0 font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Shades-100 text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Shades-yellow text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button>
-        <button text="Button" className="bg-Shades-red text-white font-semibold py-2 px-4 rounded-full inline-flex p-1 justify-center items-center gap-2" >Text</button> */}
         <Button
           color="Primary"
           shade="700"
@@ -161,19 +124,6 @@ function App() {
           leftIcon={true}
         />
       </div>
-      {/* <div className="flex flex-row items-center justify-center">
-
-        <Button color="Primary" shade="700" text="Button"  fontSize="2xl"/>
-
-        <Button color="Success" shade="700" text="Button"  fontSize="2xl"/>
-
-        <Button color="Error" shade="500" text="Button"  fontSize="2xl"/>
-
-        <Button color="Warning" shade="700" text="Button"  fontSize="2xl"/>
-
-        <Button color="Natural" shade="400" text="Button"  fontSize="2xl"/>
-
-      </div> */}
       <div className="flex flex-row justify-center m-2">
         <Button
           color="Primary"
@@ -848,59 +798,3 @@ function App() {
 }
 
 export default App;
-
-// const ButtonLeft = ({ color, text, shade, fontSize, hieght }) => {
-//   const buttonClasses = `bg-${color}-${shade} text-Shades-0 font-semibold px-4 rounded-full inline-flex p-1 justify-center items-center gap-2 text-${fontSize} h-${hieght}`;
-
-//   return (
-//     <button className={buttonClasses}>
-//       {text}
-//       <svg
-//         xmlns="http://www.w3.org/2000/svg"
-//         fill="none"
-//         viewBox="0 0 24 24"
-//         stroke-width="1.5"
-//         stroke="currentColor"
-//         class="w-6 h-6"
-//       >
-//         <path
-//           stroke-linecap="round"
-//           stroke-linejoin="round"
-//           d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
-//         />
-//       </svg>
-//     </button>
-//   );
-// };
-
-// const ButtonOutlerLeft = ({
-//   color,
-//   text,
-//   fontSize,
-//   shade,
-//   bgColor,
-//   bgShade,
-//   hieght,
-// }) => {
-//   const buttonClasses = `inline-flex text-${color}-${shade} font-semibold px-4 justify-center items-center gap-2 rounded-full border-2 border-${color}-${shade} bg-${bgColor}-${bgShade} text-${fontSize}  h-${hieght}`; // py-2
-
-//   return (
-//     <button className={buttonClasses}>
-//       {text}
-//       <svg
-//         xmlns="http://www.w3.org/2000/svg"
-//         fill="none"
-//         viewBox="0 0 24 24"
-//         stroke-width="1.5"
-//         stroke="currentColor"
-//         class="w-6 h-6"
-//       >
-//         <path
-//           stroke-linecap="round"
-//           stroke-linejoin="round"
-//           d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
-//         />
-//       </svg>
-//     </button>
-//   );
-// };
