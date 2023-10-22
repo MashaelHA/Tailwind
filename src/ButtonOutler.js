@@ -1,15 +1,17 @@
 import React from "react";
 
-const Button = ({
+const ButtonOutler = ({
   color,
   text,
-  shade,
   fontSize,
+  shade,
+  bgColor,
+  bgShade,
   hieght,
   leftIcon,
   rightIcon,
 }) => {
-  const buttonClasses = `bg-${color}-${shade} text-Shades-0 font-semibold px-4 rounded-full inline-flex p-1 justify-center items-center gap-2 text-${fontSize} h-${hieght}`; // hover:bg-${color}-600 py-2 px-4
+  const buttonClasses = `inline-flex text-${color}-${shade} font-semibold px-4 justify-center items-center gap-2 rounded-full border-2 border-${color}-${shade} bg-${bgColor}-${bgShade} text-${fontSize} h-${hieght}`;
 
   const icon = (
     <svg
@@ -27,13 +29,14 @@ const Button = ({
       />
     </svg>
   );
+
   return (
     <button className={buttonClasses}>
-       {leftIcon && icon}
+      {leftIcon && icon}
       {text}
       {rightIcon && icon}
     </button>
   );
 };
 
-export default Button;
+export default ButtonOutler;
