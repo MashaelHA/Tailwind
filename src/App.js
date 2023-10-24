@@ -1,8 +1,11 @@
 import "./App.css";
 import Button from "./components/Button";
 import ButtonOutler from "./components/ButtonOutler";
-import DownloadIcon from "./components/DownloadIcon";
+import DownloadIcon from "./components/ButtonsIcon";
 import DashboardButton from "./components/DashboardButton";
+import SwitchButton from "./components/SwitchButton";
+import Header from "./components/Header/Headerx";
+import Logo from "./components/logo";
 
 function App() {
   return (
@@ -15,6 +18,7 @@ function App() {
           fontSize="base"
           hieght="8"
           leftIcon={true}
+          iconType="email"
         />
         <Button
           color="Success"
@@ -23,6 +27,7 @@ function App() {
           fontSize="base"
           hieght="8"
           leftIcon={true}
+          iconType="email"
         />
         <Button
           color="Error"
@@ -31,6 +36,7 @@ function App() {
           fontSize="base"
           hieght="8"
           leftIcon={true}
+          iconType="email"
         />
         <Button
           color="Warning"
@@ -39,6 +45,7 @@ function App() {
           fontSize="base"
           hieght="8"
           leftIcon={true}
+          iconType="email"
         />
         <Button
           color="Natural"
@@ -47,6 +54,7 @@ function App() {
           fontSize="base"
           hieght="8"
           leftIcon={true}
+          iconType="email"
         />
         <Button
           color="Primary"
@@ -55,6 +63,7 @@ function App() {
           fontSize="2xl"
           hieght="10"
           leftIcon={true}
+          iconType="email"
         />
         <Button
           color="Success"
@@ -63,6 +72,7 @@ function App() {
           fontSize="2xl"
           hieght="10"
           leftIcon={true}
+          iconType="email"
         />
         <Button
           color="Error"
@@ -71,6 +81,7 @@ function App() {
           fontSize="2xl"
           hieght="10"
           leftIcon={true}
+          iconType="email"
         />
         <Button
           color="Warning"
@@ -79,6 +90,7 @@ function App() {
           fontSize="2xl"
           hieght="10"
           leftIcon={true}
+          iconType="email"
         />
         <Button
           color="Natural"
@@ -87,6 +99,7 @@ function App() {
           fontSize="2xl"
           hieght="10"
           leftIcon={true}
+          iconType="email"
         />
         <Button
           color="Primary"
@@ -94,6 +107,7 @@ function App() {
           text="Button"
           fontSize="3xl"
           leftIcon={true}
+          iconType="email"
         />
         <Button
           color="Success"
@@ -101,6 +115,7 @@ function App() {
           text="Button"
           fontSize="3xl"
           leftIcon={true}
+          iconType="email"
         />
         <Button
           color="Error"
@@ -108,6 +123,7 @@ function App() {
           text="Button"
           fontSize="3xl"
           leftIcon={true}
+          iconType="email"
         />
         <Button
           color="Warning"
@@ -115,6 +131,7 @@ function App() {
           text="Button"
           fontSize="3xl"
           leftIcon={true}
+          iconType="email"
         />
         <Button
           color="Natural"
@@ -122,6 +139,7 @@ function App() {
           text="Button"
           fontSize="3xl"
           leftIcon={true}
+          iconType="email"
         />
       </div>
       <div className="flex flex-row justify-center m-2">
@@ -132,6 +150,7 @@ function App() {
           fontSize="lg"
           hieght="8"
           rightIcon={true}
+          iconType="email"
         />
 
         <Button
@@ -141,6 +160,7 @@ function App() {
           fontSize="base"
           hieght="8"
           rightIcon={true}
+          iconType="email"
         />
 
         <Button
@@ -150,6 +170,7 @@ function App() {
           fontSize="base"
           hieght="8"
           rightIcon={true}
+          iconType="email"
         />
 
         <Button
@@ -159,6 +180,7 @@ function App() {
           fontSize="base"
           hieght="8"
           rightIcon={true}
+          iconType="email"
         />
 
         <Button
@@ -168,6 +190,7 @@ function App() {
           fontSize="base"
           hieght="8"
           rightIcon={true}
+          iconType="email"
         />
 
         <Button
@@ -177,6 +200,7 @@ function App() {
           fontSize="2xl"
           hieght="10"
           rightIcon={true}
+          iconType="email"
         />
 
         <Button
@@ -186,6 +210,7 @@ function App() {
           fontSize="2xl"
           hieght="10"
           rightIcon={true}
+          iconType="email"
         />
 
         <Button
@@ -195,6 +220,7 @@ function App() {
           fontSize="2xl"
           hieght="10"
           rightIcon={true}
+          iconType="email"
         />
 
         <Button
@@ -204,6 +230,7 @@ function App() {
           fontSize="2xl"
           hieght="10"
           rightIcon={true}
+          iconType="email"
         />
 
         <Button
@@ -213,6 +240,7 @@ function App() {
           fontSize="2xl"
           hieght="10"
           rightIcon={true}
+          iconType="email"
         />
 
         <Button
@@ -221,6 +249,7 @@ function App() {
           text="Button"
           fontSize="3xl"
           rightIcon={true}
+          iconType="email"
         />
 
         <Button
@@ -229,6 +258,7 @@ function App() {
           text="Button"
           fontSize="3xl"
           rightIcon={true}
+          iconType="email"
         />
 
         <Button
@@ -237,6 +267,7 @@ function App() {
           text="Button"
           fontSize="3xl"
           rightIcon={true}
+          iconType="email"
         />
 
         <Button
@@ -245,6 +276,7 @@ function App() {
           text="Button"
           fontSize="3xl"
           rightIcon={true}
+          iconType="email"
         />
 
         <Button
@@ -253,6 +285,7 @@ function App() {
           text="Button"
           fontSize="3xl"
           rightIcon={true}
+          iconType="email"
         />
       </div>
       <div className="flex flex-row justify-center m-2">
@@ -584,6 +617,7 @@ function App() {
           bgColor="Primary"
           bgShade="300"
           size="6"
+          iconType="download"
         />
 
         <DownloadIcon
@@ -592,6 +626,7 @@ function App() {
           bgColor="Natural"
           bgShade="100"
           size="6"
+          iconType="download"
         />
 
         <DownloadIcon
@@ -600,6 +635,7 @@ function App() {
           bgColor="Success"
           bgShade="50"
           size="6"
+          iconType="download"
         />
 
         <DownloadIcon
@@ -608,6 +644,7 @@ function App() {
           bgColor="Error"
           bgShade="50"
           size="6"
+          iconType="download"
         />
 
         <DownloadIcon
@@ -616,6 +653,7 @@ function App() {
           bgColor="Warning"
           bgShade="50"
           size="6"
+          iconType="download"
         />
 
         <DownloadIcon
@@ -624,6 +662,7 @@ function App() {
           bgColor="Natural"
           bgShade="100"
           size="6"
+          iconType="download"
         />
 
         <DownloadIcon
@@ -632,6 +671,7 @@ function App() {
           bgColor="Primary"
           bgShade="700"
           size="6"
+          iconType="download"
         />
 
         <DownloadIcon
@@ -640,6 +680,7 @@ function App() {
           bgColor="Success"
           bgShade="700"
           size="6"
+          iconType="download"
         />
 
         <DownloadIcon
@@ -648,6 +689,7 @@ function App() {
           bgColor="Error"
           bgShade="500"
           size="6"
+          iconType="download"
         />
 
         <DownloadIcon
@@ -656,6 +698,7 @@ function App() {
           bgColor="Warning"
           bgShade="700"
           size="6"
+          iconType="download"
         />
 
         <DownloadIcon
@@ -664,6 +707,7 @@ function App() {
           bgColor="Natural"
           bgShade="400"
           size="6"
+          iconType="download"
         />
       </div>
       <DashboardButton
@@ -793,6 +837,26 @@ function App() {
         justify="start"
         withText={false}
       />
+      <br /> <br />
+      <SwitchButton
+        labelOn="Option"
+        labelOff="Option"
+        color="Primary-700"
+        bgOn="Shades-0"
+        colorTextOff="Natural-400"
+      />
+      <br /> <br />
+      <Header color="Shades-0" height="20" width="30" />
+      <br /> <br />
+      <Logo icon={true} backgroundColor="" padding="0" opacity="0" />
+      <Logo icon={false} backgroundColor="" padding="0" opacity="0" />
+      <Logo icon={true} backgroundColor="" padding="0" opacity="opacity-50" />
+      <Logo icon={false} backgroundColor="" padding="0" opacity="opacity-25" />
+      <Logo icon={true} backgroundColor="Primary-50" padding="p-10" opacity="0" />
+      <Logo icon={true} backgroundColor="Primary-900" padding="p-10" opacity="0" isDark={true} />
+
+
+
     </div>
   );
 }
